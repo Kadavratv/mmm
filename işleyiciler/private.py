@@ -26,7 +26,7 @@ Grubunuzda Müzik Çalmak İçin Çok İyi Ve Açık Kaynaklı Bir Bottur:
                         "🗣️Kanal🗣️", url="https://t.me/kanalEfsanestar"
                     ),                    
                     InlineKeyboardButton(
-                        "👤Sahip👤", url="https://t.me/EfsaneStar" 
+                        "👤Sahip👤", url="https://t.me/CANTERMUX" 
                     ), 
                 ]
             ]
