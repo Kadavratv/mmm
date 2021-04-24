@@ -24,7 +24,7 @@ Grubunuzda Müzik Çalmak İçin Çok İyi Ve Açık Kaynaklı Bir Bottur:
 
                     ),
                     InlineKeyboardButton(
-                        "🗣️Kanal🗣️", url="https://t.me/kanalEfsanestar"
+                        "🗣️Kanal🗣️", url="https://t.me/VenomGrub"
                     ),                    
                     InlineKeyboardButton(
                         "👤Sahip👤", url="https://t.me/CANTERMUX" 
