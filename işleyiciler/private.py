@@ -20,7 +20,8 @@ Grubunuzda Müzik Çalmak İçin Çok İyi Ve Açık Kaynaklı Bir Bottur:
             [
                 [
                     InlineKeyboardButton(
-                        "☕Grup☕", url="https://t.me/sohbetskyfall"
+                        "☕Grup☕", url="https://t.me/ParadoksGrup"
+
                     ),
                     InlineKeyboardButton(
                         "🗣️Kanal🗣️", url="https://t.me/kanalEfsanestar"
@@ -33,3 +34,4 @@ Grubunuzda Müzik Çalmak İçin Çok İyi Ve Açık Kaynaklı Bir Bottur:
         )
     )
     
+
