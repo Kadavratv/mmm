@@ -18,7 +18,7 @@ Get STRING_NAME from here:
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://repl.it/@subinps/getStringName)
 
 ### Demir yolu ile dağıt 🚅
-
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FMehmetbaba06%2FMp3-Oynat&plugins=postgresql&envs=SESSION_NAME%2CBOT_TOKEN%2CBOT_NAME%2CAPI_ID%2CAPI_HASH%2CSUDO_USERS%2CDURATION_LIMIT&optionalEnvs=BOT_NAME&BOT_TOKENDesc=Botfather+dan+al&API_IDDesc=Telegram+dan+al&API_HASHDesc=Telegram+dan+al&SUDO_USERSDesc=Id+kodu+roseden+al&DURATION_LIMITDesc=59+yaz)
 ### Mandatory Vars.
 
 - Some Of The Mandatory Vars Are :-
