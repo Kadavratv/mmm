@@ -20,11 +20,11 @@ Grubunuzda Müzik Çalmak İçin Çok İyi Ve Açık Kaynaklı Bir Bottur:
             [
                 [
                     InlineKeyboardButton(
-                        "💖 Asistan", url="https://t.me/Movingmusicasistan"
+                        "💖 Asistan", url="https://t.me/movingmusic"
 
                     ),
                     InlineKeyboardButton(
-                        "📣 Kanal", url="https://t.me/VenomGrub"
+                        "📣 Kanal", url="https://t.me/sohbetdestek"
                     ),                    
                     InlineKeyboardButton(
                         "🌀 Repo", url="https://t.me/Sohbetdestek" 
