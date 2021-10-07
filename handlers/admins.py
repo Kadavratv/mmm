@@ -37,7 +37,7 @@ async def devam(_, message: Message):
         await message.reply_text(f"**{BN} :-** 🇹🇷 Hiçbir şey duraklatılmadı!")
     else:
         callsmusic.pytgcalls.resume_stream(message.chat.id)
-        await message.reply_text(f"**Userbot:-** 🥳 Devamettirildi!")
+        await message.reply_text(f"**Müzik:-** 🥳 Devamettirildi!")
 
 
 @Client.on_message(command("son") & other_filters)
@@ -74,4 +74,4 @@ async def atla(_, message: Message):
                 callsmusic.queues.get(message.chat.id)["file_path"]
             )
 
-        await message.reply_text(f"**Userbot:-** ➡️ Geçerli şarkı atlandı!")
+        await message.reply_text(f"**Müzik :-** >> Sıraya alınan şarkı atlatıldı!")
