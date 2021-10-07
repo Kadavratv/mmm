@@ -10,7 +10,7 @@ async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
         f"""Ben **{bn}** !!
-Grubunuzda Müzik Çalmak İçin Tasarlandım, Bana Mp3 Formatında Şarkıları Veriniz:
+Grubunuzda Müzik Çalmak İçin Tasarlandım, Bana Mp3 Formatında Şarkıları Veriniz. Developed by [MahoBey](https://t.me/Mahoaga).:
 🔥 /oynat - yanıtlanan ses dosyasını veya YouTube videosunu link.__ aracılığıyla __oynatılır
 🔥 /durdur - Sesli Sohbet Music.__ __Durdurur
 🔥 /devam - sesli sohbet Music.__ __Devam ettirir
