@@ -10,24 +10,24 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""Ben **{bn}** !!
 Grubunuzda Müzik Çalmak İçin Çok İyi Ve Açık Kaynaklı Bir Bottur:
-🇹🇷 /play - yanıtlanan ses dosyasını veya YouTube videosunu link.__ aracılığıyla __oynatılır
-🇹🇷 /pause - Sesli Sohbet Music.__ __Durdurur
-🇹🇷 /resume - sesli sohbet Music.__ __Devam ettirir
-🇹🇷 /skip - Geçerli Ses Atlanır.__ Çalan Müzik __atlanır
-🇹🇷 /stop - Sırayı __Temizler ve Sesli Sohbet Müziklerin listesini kaldırır.__
+🔥 /oynat - yanıtlanan ses dosyasını veya YouTube videosunu link.__ aracılığıyla __oynatılır
+🔥 /durdur - Sesli Sohbet Music.__ __Durdurur
+🔥 /devam - sesli sohbet Music.__ __Devam ettirir
+🔥 /atla - Geçerli Ses Atlanır.__ Çalan Müzik __atlanır
+🔥 /son - Sırayı __Temizler ve Sesli Sohbet Müziklerin listesini kaldırır.__
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "😈Grup😈", url="https://t.me/ParadoksGrup"
+                        "💖 Asistan", url="https://t.me/Movingmusicasistan"
 
                     ),
                     InlineKeyboardButton(
-                        "🐱Kanal🐱", url="https://t.me/VenomGrub"
+                        "📣 Kanal", url="https://t.me/VenomGrub"
                     ),                    
                     InlineKeyboardButton(
-                        "🇹🇷Sahip👤", url="https://t.me/CANTERMUX" 
+                        "🌀 Repo", url="https://t.me/Sohbetdestek" 
                     ), 
                 ]
             ]
