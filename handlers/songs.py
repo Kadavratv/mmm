@@ -11,7 +11,7 @@ from config import BOT_NAME as Bn
 from helpers.filters import command, other_filters
 from helpers.decorators import errors
 
-@Client.on_message(command("song") & other_filters)
+@Client.on_message(command("bul") & other_filters)
 @errors
 async def a(client, message: Message):
     query = ''
@@ -55,7 +55,7 @@ async def a(client, message: Message):
         )
         print(str(e))
         return
-    await m.edit(f"**{Bn} :-** 📥 Indiriliyor...\n**Sorgulanıyor :-** {query}")
+    await m.edit(f"**Mp3:-** 📥 İndiriliyor...\n**Sorgulanıyor :-** {query}")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
