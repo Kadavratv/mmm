@@ -53,7 +53,8 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text(f"**Userbot:-** ❌ Akış durduruldu!")
+        await message.reply_text("❎ **Müzik durduruldu!**\n\n• **Userbot'un sesli sohbet bağlantısı kesildi**")
+ 
 
 
 @Client.on_message(command("atla") & other_filters)
