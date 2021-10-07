@@ -17,6 +17,8 @@ Get STRING_NAME from here:
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://repl.it/@subinps/getStringName)
 
+### Demir yolu ile dağıt 🚅
+
 ### Mandatory Vars.
 
 - Some Of The Mandatory Vars Are :-
