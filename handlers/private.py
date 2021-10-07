@@ -9,12 +9,14 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_text(
         f"""Ben **{bn}** !!
-Grubunuzda Müzik Çalmak İçin Çok İyi Ve Açık Kaynaklı Bir Bottur:
+Grubunuzda Müzik Çalmak İçin Tasarlandım, Bana Mp3 Formatında Şarkıları Veriniz:
 🔥 /oynat - yanıtlanan ses dosyasını veya YouTube videosunu link.__ aracılığıyla __oynatılır
 🔥 /durdur - Sesli Sohbet Music.__ __Durdurur
 🔥 /devam - sesli sohbet Music.__ __Devam ettirir
 🔥 /atla - Geçerli Ses Atlanır.__ Çalan Müzik __atlanır
 🔥 /son - Sırayı __Temizler ve Sesli Sohbet Müziklerin listesini kaldırır.__
+💡 /asistan - Userbot Grubunuza Katılır.
+💡 /asistandefol - Userbot Grubunuzdan Ayrılır. 
         """,
         reply_markup=InlineKeyboardMarkup(
             [
